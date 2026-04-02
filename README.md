@@ -124,17 +124,5 @@ python scripts/rf_clf_model.py
 ### Step 7: View Results
 After execution, check the `holdout_results/` directory. You will find text files (e.g., `targets_for_holdout_1`, `preds_for_holdout_1`) containing the actual and predicted GPA arrays for performance evaluation.
 
----
 
-## Citations
-If you use this code or dataset in your academic work or research, please cite the repository:
-> Y. Görmez (2024). Effect of Socio-Economic Factors on Academic Performance. GitHub Repository: [https://github.com/ysngrmz/effect_of_socio-economic](https://github.com/ysngrmz/effect_of_socio-economic)
 
-*(Please update this section with formal paper/publication details if the study is published).*
-
----
-
-## License & Contribution Guidelines
-**License:** This project is provided under the [MIT License](LICENSE).
-
-**Contributions:** Contributions are welcome! If you want to improve data preprocessing, add visualizations, or expand the model hyperparameter grids, please fork the repository and submit a Pull Request.
