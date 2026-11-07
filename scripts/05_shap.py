@@ -18,7 +18,7 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument('--gpa-policy', choices=['error', 'exclude'], default='error')
     p.add_argument('--model', required=True, help='Model selected for detailed explanation')
-    p.add_argument('--folds', type=int, default=3, help='Number of saved outer folds to explain')
+    p.add_argument('--folds', type=int, default=15, help='Number of saved outer folds to explain')
     p.add_argument('--samples-per-fold', type=int, default=10)
     p.add_argument('--background-size', type=int, default=12)
     p.add_argument('--seed', type=int, default=SEED)
